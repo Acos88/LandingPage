@@ -8,53 +8,62 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <div class="container">
         <div class="header">
-            <p class="logo">Header Logo</p>
-            <ul>
-                <li><a href="#">Header link one</a></li>
-                <li><a href="#">Header link two</a></li>
-                <li><a href="#">Header link three</a></li>
-            </ul>
+            <div class="logo">
+                <p>Header Logo</p>
+            </div>
+            <div class="links">
+                <a href="#">Main</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
         </div>
-    </header>
-    <section class="hero">
-        <h1>This website is awesome!</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet harum ipsum consectetur. Consequuntur tempora porro animi fugit, qui tempore sint laborum inventore beatae. Obcaecati nesciunt perspiciatis quasi accusamus quidem rerum.</p>
-        <button>sign up</button>
-        <img src="#" alt="some image">
-    </section>
-    <section class="middle">
-        <h3>Some random information</h3>
+        <div class="hero">
+            <div class="hero-left">
+                <h1>This website is awesome!</h1>
+                <p>Some text beneath</p>
+                <button type="button">Sign up</button>
+            </div>
+            <div class="hero-right">
+                <img src="#" alt="some image">
+            </div>
+        </div>
         <div class="card">
-            <img src="#" alt="image1">
-            <img src="#" alt="image2">
-            <img src="#" alt="image3">
-            <img src="#" alt="image4">        
+            <h2>Some randome information</h2>
+            <div class="cards">
+                <div>
+                    <img src="#" alt="image1">
+                    <p>text1</p>
+                </div>
+                <div>
+                    <img src="#" alt="image2">
+                    <p>text2</p>
+                </div>
+                <div>
+                    <img src="#" alt="image3">
+                    <p>text3</p>
+                </div>
+                <div>
+                    <img src="#" alt="image4">
+                    <p>text4</p>
+                </div>
+            </div>
         </div>
-        <div class="card-text">
-            <p>text1</p>
-            <p>text2</p>
-            <p>text3</p>
-            <p>text4</p>
+        <div class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quaerat voluptatibus, autem assumenda omnis sunt necessitatibus earum ipsa nobis ad sapiente accusamus libero? Assumenda perspiciatis non reiciendis molestias veniam officiis!</p>
+            <b>- sign quote</b>
         </div>
-    </section>
-    <section class="bottom">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi architecto natus pariatur aspernatur ex quidem voluptas impedit molestias, earum et quibusdam numquam rem asperiores, quasi vel. Itaque veritatis molestias maiores?</p>
-        <p>quote</p>
-     </section>
-     <section class="bottom-end">
-         <h3>call to action</h3>
-         <p>some text</p>
-         <button>sign up</button>
-
-     </section>
-     <footer>
-         <p>copyright</p>
-     </footer>
-
-
-
-    
+        <div class="call">
+            <div class="call-left">
+                <h3>some text</h3>
+                <p>some smaller text under</p>
+            </div>
+            <div class="call-right">
+                <button type="button">Sign up</button>
+            </div>
+        </div>
+        <footer>Copyright ©</footer>
+    </div>
 </body>
 </html>
